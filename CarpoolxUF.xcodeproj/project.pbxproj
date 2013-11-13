@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C701E495170E5DD100BA30CE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C701E494170E5DD100BA30CE /* LoginViewController.m */; };
+		C77EA4B017130DBD00FC7C42 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C77EA4AF17130DBD00FC7C42 /* Default.png */; };
+		C77EA4B217130DCA00FC7C42 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C77EA4B117130DCA00FC7C42 /* Default@2x.png */; };
+		C78064D7171212B800C0A87F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C78064D6171212B800C0A87F /* libsqlite3.dylib */; };
+		C78064DA17121E7E00C0A87F /* carpool.db in Resources */ = {isa = PBXBuildFile; fileRef = C78064D917121E7E00C0A87F /* carpool.db */; };
+		C78064DE1712205700C0A87F /* BWDB.m in Sources */ = {isa = PBXBuildFile; fileRef = C78064DD1712205700C0A87F /* BWDB.m */; };
+		C78064E517122D7000C0A87F /* USERDB.m in Sources */ = {isa = PBXBuildFile; fileRef = C78064E417122D7000C0A87F /* USERDB.m */; };
+		C7C4948D1700ED7D00B16307 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C4948C1700ED7D00B16307 /* UIKit.framework */; };
+		C7C4948F1700ED7D00B16307 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C4948E1700ED7D00B16307 /* Foundation.framework */; };
+		C7C494911700ED7D00B16307 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C494901700ED7D00B16307 /* CoreGraphics.framework */; };
+		C7C494971700ED7D00B16307 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7C494951700ED7D00B16307 /* InfoPlist.strings */; };
+		C7C494991700ED7D00B16307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C494981700ED7D00B16307 /* main.m */; };
+		C7C4949D1700ED7D00B16307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C4949C1700ED7D00B16307 /* AppDelegate.m */; };
+		C7C4949F1700ED7D00B16307 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C4949E1700ED7D00B16307 /* Default.png */; };
+		C7C494A11700ED7E00B16307 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C494A01700ED7E00B16307 /* Default@2x.png */; };
+		C7C494A31700ED7E00B16307 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C494A21700ED7E00B16307 /* Default-568h@2x.png */; };
+		C7C494A61700ED7E00B16307 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C494A41700ED7E00B16307 /* MainStoryboard.storyboard */; };
+		C7C494A91700ED7E00B16307 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C494A81700ED7E00B16307 /* ViewController.m */; };
+		C7C494CE1700F38500B16307 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7C494B01700F38400B16307 /* InfoPlist.strings */; };
+		C7C494CF1700F38500B16307 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C494B21700F38400B16307 /* MainStoryboard.storyboard */; };
+		C7C494D01700F38500B16307 /* CarpoolApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7C494B41700F38400B16307 /* CarpoolApp-Info.plist */; };
+		C7C494D11700F38500B16307 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C494B71700F38400B16307 /* LaunchViewController.m */; };
+		C7C494D21700F38500B16307 /* CarpoolTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C494B91700F38400B16307 /* CarpoolTableViewController.m */; };
+		C7C494D31700F38500B16307 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C494BB1700F38400B16307 /* FilterViewController.m */; };
+		C7C494D41700F38500B16307 /* DisplayCarpoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C494BD1700F38400B16307 /* DisplayCarpoolViewController.m */; };
+		C7C494D51700F38500B16307 /* PostCarpoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C494BF1700F38400B16307 /* PostCarpoolViewController.m */; };
+		C7C494D61700F38500B16307 /* NotifySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C494C11700F38400B16307 /* NotifySettingsViewController.m */; };
+		C7C494D71700F38500B16307 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C494C31700F38400B16307 /* UserProfileViewController.m */; };
+		C7C494D81700F38500B16307 /* TagSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C494C51700F38400B16307 /* TagSettingsViewController.m */; };
+		C7C494D91700F38500B16307 /* SettingsTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C494C71700F38500B16307 /* SettingsTabBarController.m */; };
+		C7C494DA1700F38500B16307 /* UserContact.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C494C91700F38500B16307 /* UserContact.m */; };
+		C7C494DB1700F38500B16307 /* Carpool.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C494CB1700F38500B16307 /* Carpool.m */; };
+		C7C494DC1700F38500B16307 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C494CD1700F38500B16307 /* Message.m */; };
+		C7ED77F21700F50B00B1C32D /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7ED77EA1700F50B00B1C32D /* background.jpg */; };
+		C7ED77F31700F50B00B1C32D /* carpoolICON.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ED77EB1700F50B00B1C32D /* carpoolICON.png */; };
+		C7ED77F41700F50B00B1C32D /* carpoolICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ED77EC1700F50B00B1C32D /* carpoolICON@2x.png */; };
+		C7ED77F51700F50B00B1C32D /* Launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ED77ED1700F50B00B1C32D /* Launch@2x.png */; };
+		C7ED77F61700F50B00B1C32D /* Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ED77EE1700F50B00B1C32D /* Launch.png */; };
+		C7ED77F71700F50B00B1C32D /* settingNotification.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ED77EF1700F50B00B1C32D /* settingNotification.png */; };
+		C7ED77F81700F50B00B1C32D /* settingProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ED77F01700F50B00B1C32D /* settingProfile.png */; };
+		C7ED77F91700F50B00B1C32D /* settingProfile2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ED77F11700F50B00B1C32D /* settingProfile2.png */; };
+		C7ED77FB1700F59400B1C32D /* carpoolICON.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ED77FA1700F59400B1C32D /* carpoolICON.png */; };
+		C7ED77FD1700F59D00B1C32D /* carpoolICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ED77FC1700F59D00B1C32D /* carpoolICON@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C701E493170E5DD100BA30CE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C701E494170E5DD100BA30CE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C77EA4AF17130DBD00FC7C42 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C77EA4B117130DCA00FC7C42 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C78064D6171212B800C0A87F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C78064D917121E7E00C0A87F /* carpool.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = carpool.db; sourceTree = "<group>"; };
+		C78064DC1712205700C0A87F /* BWDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWDB.h; sourceTree = "<group>"; };
+		C78064DD1712205700C0A87F /* BWDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWDB.m; sourceTree = "<group>"; };
+		C78064E317122D7000C0A87F /* USERDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USERDB.h; sourceTree = "<group>"; };
+		C78064E417122D7000C0A87F /* USERDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USERDB.m; sourceTree = "<group>"; };
+		C7C494891700ED7D00B16307 /* CarpoolxUF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarpoolxUF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C4948C1700ED7D00B16307 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7C4948E1700ED7D00B16307 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7C494901700ED7D00B16307 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7C494941700ED7D00B16307 /* CarpoolxUF-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarpoolxUF-Info.plist"; sourceTree = "<group>"; };
+		C7C494961700ED7D00B16307 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7C494981700ED7D00B16307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7C4949A1700ED7D00B16307 /* CarpoolxUF-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarpoolxUF-Prefix.pch"; sourceTree = "<group>"; };
+		C7C4949B1700ED7D00B16307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7C4949C1700ED7D00B16307 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7C4949E1700ED7D00B16307 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C7C494A01700ED7E00B16307 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C7C494A21700ED7E00B16307 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C7C494A51700ED7E00B16307 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C7C494A71700ED7E00B16307 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7C494A81700ED7E00B16307 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7C494B11700F38400B16307 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		C7C494B31700F38400B16307 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C7C494B41700F38400B16307 /* CarpoolApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CarpoolApp-Info.plist"; sourceTree = "<group>"; };
+		C7C494B51700F38400B16307 /* CarpoolApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CarpoolApp-Prefix.pch"; sourceTree = "<group>"; };
+		C7C494B61700F38400B16307 /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		C7C494B71700F38400B16307 /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		C7C494B81700F38400B16307 /* CarpoolTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarpoolTableViewController.h; sourceTree = "<group>"; };
+		C7C494B91700F38400B16307 /* CarpoolTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarpoolTableViewController.m; sourceTree = "<group>"; };
+		C7C494BA1700F38400B16307 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		C7C494BB1700F38400B16307 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		C7C494BC1700F38400B16307 /* DisplayCarpoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayCarpoolViewController.h; sourceTree = "<group>"; };
+		C7C494BD1700F38400B16307 /* DisplayCarpoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayCarpoolViewController.m; sourceTree = "<group>"; };
+		C7C494BE1700F38400B16307 /* PostCarpoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostCarpoolViewController.h; sourceTree = "<group>"; };
+		C7C494BF1700F38400B16307 /* PostCarpoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostCarpoolViewController.m; sourceTree = "<group>"; };
+		C7C494C01700F38400B16307 /* NotifySettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifySettingsViewController.h; sourceTree = "<group>"; };
+		C7C494C11700F38400B16307 /* NotifySettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifySettingsViewController.m; sourceTree = "<group>"; };
+		C7C494C21700F38400B16307 /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileViewController.h; sourceTree = "<group>"; };
+		C7C494C31700F38400B16307 /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
+		C7C494C41700F38400B16307 /* TagSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagSettingsViewController.h; sourceTree = "<group>"; };
+		C7C494C51700F38400B16307 /* TagSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagSettingsViewController.m; sourceTree = "<group>"; };
+		C7C494C61700F38400B16307 /* SettingsTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTabBarController.h; sourceTree = "<group>"; };
+		C7C494C71700F38500B16307 /* SettingsTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTabBarController.m; sourceTree = "<group>"; };
+		C7C494C81700F38500B16307 /* UserContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserContact.h; sourceTree = "<group>"; };
+		C7C494C91700F38500B16307 /* UserContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserContact.m; sourceTree = "<group>"; };
+		C7C494CA1700F38500B16307 /* Carpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Carpool.h; sourceTree = "<group>"; };
+		C7C494CB1700F38500B16307 /* Carpool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Carpool.m; sourceTree = "<group>"; };
+		C7C494CC1700F38500B16307 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		C7C494CD1700F38500B16307 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		C7ED77EA1700F50B00B1C32D /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		C7ED77EB1700F50B00B1C32D /* carpoolICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carpoolICON.png; sourceTree = "<group>"; };
+		C7ED77EC1700F50B00B1C32D /* carpoolICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carpoolICON@2x.png"; sourceTree = "<group>"; };
+		C7ED77ED1700F50B00B1C32D /* Launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch@2x.png"; sourceTree = "<group>"; };
+		C7ED77EE1700F50B00B1C32D /* Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch.png; sourceTree = "<group>"; };
+		C7ED77EF1700F50B00B1C32D /* settingNotification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingNotification.png; sourceTree = "<group>"; };
+		C7ED77F01700F50B00B1C32D /* settingProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingProfile.png; sourceTree = "<group>"; };
+		C7ED77F11700F50B00B1C32D /* settingProfile2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingProfile2.png; sourceTree = "<group>"; };
+		C7ED77FA1700F59400B1C32D /* carpoolICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carpoolICON.png; sourceTree = "<group>"; };
+		C7ED77FC1700F59D00B1C32D /* carpoolICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carpoolICON@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7C494861700ED7D00B16307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78064D7171212B800C0A87F /* libsqlite3.dylib in Frameworks */,
+				C7C4948D1700ED7D00B16307 /* UIKit.framework in Frameworks */,
+				C7C4948F1700ED7D00B16307 /* Foundation.framework in Frameworks */,
+				C7C494911700ED7D00B16307 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C78064DB1712205700C0A87F /* BWDB */ = {
+			isa = PBXGroup;
+			children = (
+				C78064DC1712205700C0A87F /* BWDB.h */,
+				C78064DD1712205700C0A87F /* BWDB.m */,
+			);
+			path = BWDB;
+			sourceTree = "<group>";
+		};
+		C78064DF17122C4200C0A87F /* USERDB */ = {
+			isa = PBXGroup;
+			children = (
+				C78064E317122D7000C0A87F /* USERDB.h */,
+				C78064E417122D7000C0A87F /* USERDB.m */,
+			);
+			name = USERDB;
+			sourceTree = "<group>";
+		};
+		C7C494801700ED7D00B16307 = {
+			isa = PBXGroup;
+			children = (
+				C77EA4B117130DCA00FC7C42 /* Default@2x.png */,
+				C77EA4AF17130DBD00FC7C42 /* Default.png */,
+				C78064D6171212B800C0A87F /* libsqlite3.dylib */,
+				C7ED77FC1700F59D00B1C32D /* carpoolICON@2x.png */,
+				C7ED77FA1700F59400B1C32D /* carpoolICON.png */,
+				C7C494921700ED7D00B16307 /* CarpoolxUF */,
+				C7C4948B1700ED7D00B16307 /* Frameworks */,
+				C7C4948A1700ED7D00B16307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7C4948A1700ED7D00B16307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7C494891700ED7D00B16307 /* CarpoolxUF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7C4948B1700ED7D00B16307 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7C4948C1700ED7D00B16307 /* UIKit.framework */,
+				C7C4948E1700ED7D00B16307 /* Foundation.framework */,
+				C7C494901700ED7D00B16307 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7C494921700ED7D00B16307 /* CarpoolxUF */ = {
+			isa = PBXGroup;
+			children = (
+				C78064DF17122C4200C0A87F /* USERDB */,
+				C78064DB1712205700C0A87F /* BWDB */,
+				C7C494AF1700F38400B16307 /* en.lproj */,
+				C7C494B41700F38400B16307 /* CarpoolApp-Info.plist */,
+				C7C494B51700F38400B16307 /* CarpoolApp-Prefix.pch */,
+				C7C494B61700F38400B16307 /* LaunchViewController.h */,
+				C7C494B71700F38400B16307 /* LaunchViewController.m */,
+				C7C494B81700F38400B16307 /* CarpoolTableViewController.h */,
+				C7C494B91700F38400B16307 /* CarpoolTableViewController.m */,
+				C7C494BA1700F38400B16307 /* FilterViewController.h */,
+				C7C494BB1700F38400B16307 /* FilterViewController.m */,
+				C7C494BC1700F38400B16307 /* DisplayCarpoolViewController.h */,
+				C7C494BD1700F38400B16307 /* DisplayCarpoolViewController.m */,
+				C7C494BE1700F38400B16307 /* PostCarpoolViewController.h */,
+				C7C494BF1700F38400B16307 /* PostCarpoolViewController.m */,
+				C7C494C01700F38400B16307 /* NotifySettingsViewController.h */,
+				C7C494C11700F38400B16307 /* NotifySettingsViewController.m */,
+				C7C494C21700F38400B16307 /* UserProfileViewController.h */,
+				C7C494C31700F38400B16307 /* UserProfileViewController.m */,
+				C7C494C41700F38400B16307 /* TagSettingsViewController.h */,
+				C7C494C51700F38400B16307 /* TagSettingsViewController.m */,
+				C7C494C61700F38400B16307 /* SettingsTabBarController.h */,
+				C7C494C71700F38500B16307 /* SettingsTabBarController.m */,
+				C7C494C81700F38500B16307 /* UserContact.h */,
+				C7C494C91700F38500B16307 /* UserContact.m */,
+				C7C494CA1700F38500B16307 /* Carpool.h */,
+				C7C494CB1700F38500B16307 /* Carpool.m */,
+				C7C494CC1700F38500B16307 /* Message.h */,
+				C7C494CD1700F38500B16307 /* Message.m */,
+				C7C4949B1700ED7D00B16307 /* AppDelegate.h */,
+				C7C4949C1700ED7D00B16307 /* AppDelegate.m */,
+				C7C494A41700ED7E00B16307 /* MainStoryboard.storyboard */,
+				C7C494A71700ED7E00B16307 /* ViewController.h */,
+				C7C494A81700ED7E00B16307 /* ViewController.m */,
+				C701E493170E5DD100BA30CE /* LoginViewController.h */,
+				C701E494170E5DD100BA30CE /* LoginViewController.m */,
+				C7C494931700ED7D00B16307 /* Supporting Files */,
+			);
+			path = CarpoolxUF;
+			sourceTree = "<group>";
+		};
+		C7C494931700ED7D00B16307 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C78064D917121E7E00C0A87F /* carpool.db */,
+				C7ED77EA1700F50B00B1C32D /* background.jpg */,
+				C7ED77EB1700F50B00B1C32D /* carpoolICON.png */,
+				C7ED77EC1700F50B00B1C32D /* carpoolICON@2x.png */,
+				C7ED77ED1700F50B00B1C32D /* Launch@2x.png */,
+				C7ED77EE1700F50B00B1C32D /* Launch.png */,
+				C7ED77EF1700F50B00B1C32D /* settingNotification.png */,
+				C7ED77F01700F50B00B1C32D /* settingProfile.png */,
+				C7ED77F11700F50B00B1C32D /* settingProfile2.png */,
+				C7C494941700ED7D00B16307 /* CarpoolxUF-Info.plist */,
+				C7C494951700ED7D00B16307 /* InfoPlist.strings */,
+				C7C494981700ED7D00B16307 /* main.m */,
+				C7C4949A1700ED7D00B16307 /* CarpoolxUF-Prefix.pch */,
+				C7C4949E1700ED7D00B16307 /* Default.png */,
+				C7C494A01700ED7E00B16307 /* Default@2x.png */,
+				C7C494A21700ED7E00B16307 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7C494AF1700F38400B16307 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C7C494B01700F38400B16307 /* InfoPlist.strings */,
+				C7C494B21700F38400B16307 /* MainStoryboard.storyboard */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7C494881700ED7D00B16307 /* CarpoolxUF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C494AC1700ED7E00B16307 /* Build configuration list for PBXNativeTarget "CarpoolxUF" */;
+			buildPhases = (
+				C7C494851700ED7D00B16307 /* Sources */,
+				C7C494861700ED7D00B16307 /* Frameworks */,
+				C7C494871700ED7D00B16307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarpoolxUF;
+			productName = CarpoolxUF;
+			productReference = C7C494891700ED7D00B16307 /* CarpoolxUF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7C494811700ED7D00B16307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Wenting Zhao";
+			};
+			buildConfigurationList = C7C494841700ED7D00B16307 /* Build configuration list for PBXProject "CarpoolxUF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7C494801700ED7D00B16307;
+			productRefGroup = C7C4948A1700ED7D00B16307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7C494881700ED7D00B16307 /* CarpoolxUF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7C494871700ED7D00B16307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C494971700ED7D00B16307 /* InfoPlist.strings in Resources */,
+				C7C4949F1700ED7D00B16307 /* Default.png in Resources */,
+				C7C494A11700ED7E00B16307 /* Default@2x.png in Resources */,
+				C7C494A31700ED7E00B16307 /* Default-568h@2x.png in Resources */,
+				C7C494A61700ED7E00B16307 /* MainStoryboard.storyboard in Resources */,
+				C7C494CE1700F38500B16307 /* InfoPlist.strings in Resources */,
+				C7C494CF1700F38500B16307 /* MainStoryboard.storyboard in Resources */,
+				C7C494D01700F38500B16307 /* CarpoolApp-Info.plist in Resources */,
+				C7ED77F21700F50B00B1C32D /* background.jpg in Resources */,
+				C7ED77F31700F50B00B1C32D /* carpoolICON.png in Resources */,
+				C7ED77F41700F50B00B1C32D /* carpoolICON@2x.png in Resources */,
+				C7ED77F51700F50B00B1C32D /* Launch@2x.png in Resources */,
+				C7ED77F61700F50B00B1C32D /* Launch.png in Resources */,
+				C7ED77F71700F50B00B1C32D /* settingNotification.png in Resources */,
+				C7ED77F81700F50B00B1C32D /* settingProfile.png in Resources */,
+				C7ED77F91700F50B00B1C32D /* settingProfile2.png in Resources */,
+				C7ED77FB1700F59400B1C32D /* carpoolICON.png in Resources */,
+				C7ED77FD1700F59D00B1C32D /* carpoolICON@2x.png in Resources */,
+				C78064DA17121E7E00C0A87F /* carpool.db in Resources */,
+				C77EA4B017130DBD00FC7C42 /* Default.png in Resources */,
+				C77EA4B217130DCA00FC7C42 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7C494851700ED7D00B16307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C494991700ED7D00B16307 /* main.m in Sources */,
+				C7C4949D1700ED7D00B16307 /* AppDelegate.m in Sources */,
+				C7C494A91700ED7E00B16307 /* ViewController.m in Sources */,
+				C7C494D11700F38500B16307 /* LaunchViewController.m in Sources */,
+				C7C494D21700F38500B16307 /* CarpoolTableViewController.m in Sources */,
+				C7C494D31700F38500B16307 /* FilterViewController.m in Sources */,
+				C7C494D41700F38500B16307 /* DisplayCarpoolViewController.m in Sources */,
+				C7C494D51700F38500B16307 /* PostCarpoolViewController.m in Sources */,
+				C7C494D61700F38500B16307 /* NotifySettingsViewController.m in Sources */,
+				C7C494D71700F38500B16307 /* UserProfileViewController.m in Sources */,
+				C7C494D81700F38500B16307 /* TagSettingsViewController.m in Sources */,
+				C7C494D91700F38500B16307 /* SettingsTabBarController.m in Sources */,
+				C7C494DA1700F38500B16307 /* UserContact.m in Sources */,
+				C7C494DB1700F38500B16307 /* Carpool.m in Sources */,
+				C7C494DC1700F38500B16307 /* Message.m in Sources */,
+				C701E495170E5DD100BA30CE /* LoginViewController.m in Sources */,
+				C78064DE1712205700C0A87F /* BWDB.m in Sources */,
+				C78064E517122D7000C0A87F /* USERDB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7C494951700ED7D00B16307 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7C494961700ED7D00B16307 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7C494A41700ED7E00B16307 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7C494A51700ED7E00B16307 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		C7C494B01700F38400B16307 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7C494B11700F38400B16307 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7C494B21700F38400B16307 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7C494B31700F38400B16307 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7C494AA1700ED7E00B16307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7C494AB1700ED7E00B16307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7C494AD1700ED7E00B16307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarpoolxUF/CarpoolxUF-Prefix.pch";
+				INFOPLIST_FILE = "CarpoolxUF/CarpoolxUF-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7C494AE1700ED7E00B16307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarpoolxUF/CarpoolxUF-Prefix.pch";
+				INFOPLIST_FILE = "CarpoolxUF/CarpoolxUF-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7C494841700ED7D00B16307 /* Build configuration list for PBXProject "CarpoolxUF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C494AA1700ED7E00B16307 /* Debug */,
+				C7C494AB1700ED7E00B16307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C494AC1700ED7E00B16307 /* Build configuration list for PBXNativeTarget "CarpoolxUF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C494AD1700ED7E00B16307 /* Debug */,
+				C7C494AE1700ED7E00B16307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7C494811700ED7D00B16307 /* Project object */;
+}
